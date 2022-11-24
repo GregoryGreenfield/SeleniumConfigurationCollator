@@ -1,4 +1,4 @@
-#This program downloads the 10 LINAC energy configuration files from Elekta's website. It does this by using Selenium WebDriver. 
+#This program opens up the 10 LINAC energy configuration files from Elekta's website. It does this by using Selenium WebDriver. 
 print("Hello world!")
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
