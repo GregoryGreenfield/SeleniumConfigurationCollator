@@ -14,7 +14,7 @@ def EnergyConfigOpener():
     loginBtn = driver.find_element_by_id('loginBtn')
     loginBtn.click()
 
-#Finds the correct file for the first LINAC. Only called once as the webstie filtering copies automatically to the next tab opened. 
+#Finds the correct file for the first LINAC. Only called once as the website filtering copies automatically to the next tab opened. 
 def FindPageFirst(web):
     driver.get(web)
     JumpTo = driver.find_element_by_id('JumpTo')
